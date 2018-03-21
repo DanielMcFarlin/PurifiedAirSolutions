@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#c556b0fe"
+    tools:context="com.android_first_proj.purifiedairsolutions.PurifiedAirSolutions">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:src="@drawable/optimized_logo"
+        android:id="@+id/Logo" />
+
+    <TextView
+        android:id="@+id/Open_Hours"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.29"
+        android:textColor="#8bef86"
+        android:textStyle="bold|italic"
+        android:textSize="15sp"
+        android:text="Mon-Sat 8am - 5am
+Sun - Closed" />
+    <TextView
+        android:id="@+id/Welcome"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.2"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        android:textSize="15.5sp"
+    android:text="Here at Purified Air Solutions, we provide superior service for your HVAC needs. If you live in the Nashville or Middle Tennessee region, we have you covered. We have the experience and knowledgeable expertise that guarantees a job well done. When it comes to your heating, cooling, and air quality needs, turn to the affordable, dependable service of Purified Air Solutions."
+        />
+
+    <ImageView
+        android:id="@+id/Cleaning_Process"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingBottom="10dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/all_us_cleaning"/>
+
+    <TextView
+        android:id="@+id/Service_Area"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".7"
+        android:padding="10dp"
+        android:textColor="#8bef86"
+        android:textStyle="bold|italic"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:text="Serving the Middle Tennessee area!
+        Call Purified Air Solutions:
+(615) 364-5048" />
+
+</LinearLayout>
